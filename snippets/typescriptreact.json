@@ -1,0 +1,82 @@
+{
+	"react": {
+		"prefix": "react",
+		"body": [
+			"import React from \"react\";",
+			"",
+			"const ${1:$TM_FILENAME_BASE} = () => {",
+			"  return <div>$1</div>;",
+			"};",
+			"",
+			"export default $1;",
+		]
+	},
+	"useState": {
+		"prefix": "useState",
+		"body": [
+			"const [$1, set${1/^./${0:/upcase}/}] = useState(null);"
+		]
+	},
+    "emotion": {
+		"prefix": "emotion",
+		"body": [
+            "const $1 = css({",
+            "  $2",
+            "});"
+        ],
+		"description": "(css) flex centering"
+        
+    },
+	"cssflex": {
+		"prefix": "cssflex",
+		"body": [
+			"display: \"flex\",",
+			"justifyContent: \"center\",",
+			"alignItems: \"center\","
+        ],
+		"description": "(css) flex centering"
+	},
+	"csssize": {
+		"prefix": "csssize",
+		"body": [
+			"width: px($1),",
+			"height: px($2),"
+        ],
+		"description": "(css) sizing csss"
+	},
+	"cssbgi": {
+		"prefix": "cssbgi",
+		"body": [
+			"backgroundImage: `url(${$1})`,",
+			"backgroundRepeat: \"no-repeat\",",
+			"backgroundSize: \"contain\",",
+			"backgroundPosition: \"center\","
+        ],
+		"description": "(css) background image"
+	},
+	"cssmq": {
+		"prefix": "cssmq",
+		"body": [
+			"[MQ_MOBILE]: {$1},",
+			"[MQ_DESKTOP]: {$1}"
+        ],
+		"description": "(css) media query"
+	},
+	"cssori": {
+		"prefix": "cssori",
+		"body": [
+			"[MEDIA_SELECTOR({ size: \"s\", orientation: \"landscape\" })]: {$1},",
+			"[MEDIA_SELECTOR({ size: \"s\", orientation: \"portrait\" })]: {$1},",
+		],
+		"description": "(css) MEDIA_SELECTOR"
+	},
+	"nospan": {
+		"prefix": "nospan",
+		"body": [
+            "span: {",
+            "  display: \"none\"",
+            "}"
+        ],
+		"description": "(css) nospan"
+	}
+}

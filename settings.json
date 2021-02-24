@@ -1,0 +1,37 @@
+{
+    // 既定の設定を上書きするには、このファイル内に設定を挿入します
+    "window.zoomLevel": 1,
+    "editor.formatOnSave": false,
+    "javascript.format.enable": false,
+    "prettier.eslintIntegration": true,
+    "eslint.alwaysShowStatus": true,
+    "prettier.tslintIntegration": true,
+    "prettier.tabWidth": 4,
+    "prettier.requireConfig": true,
+    "editor.minimap.enabled": false,
+    "prettier.singleQuote": true,
+    "vetur.format.defaultFormatter.js": "none",
+    "eslint.validate": [
+        "javascript",
+        {
+          "language": "vue",
+          "autoFix": true
+        }
+    ],
+    "eslint.autoFixOnSave": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "breadcrumbs.enabled": true,
+    "files.associations": {
+      "*.yyp": "json",
+      "*.gml": "javascript"
+    },
+    "workbench.iconTheme": "vs-seti",
+    "workbench.editor.enablePreview": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "omnisharp.useGlobalMono": "always",
+    "workbench.colorTheme": "Abyss"
+}
