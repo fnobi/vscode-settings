@@ -16,3 +16,17 @@ make
 % cd vscode-settings
 % make clean
 ```
+
+## Backup extensions
+
+```bash
+% cd vscode-settings
+% code --list-extensions > extensions-list.txt
+```
+
+## Restore extensions
+
+```bash
+% cd vscode-settings
+% cat extensions-list.txt | xargs -n 1 code --install-extension
+```
