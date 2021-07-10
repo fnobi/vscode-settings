@@ -6,6 +6,8 @@ fnobi.assetquickimport
 hiro-sun.vscode-emacs
 jpoissonnier.vscode-styled-components
 octref.vetur
+slevesque.shader
+stevensona.shader-toy
 toba.vsfire
 vscode-icons-team.vscode-icons
 yzane.markdown-pdf
