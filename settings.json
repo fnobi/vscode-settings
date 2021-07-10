@@ -33,5 +33,6 @@
     },
     "vsicons.dontShowNewVersionMessage": true,
     "omnisharp.useGlobalMono": "always",
-    "workbench.colorTheme": "Abyss"
+    "workbench.colorTheme": "Abyss",
+    "security.workspace.trust.untrustedFiles": "open"
 }
