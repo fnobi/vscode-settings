@@ -75,5 +75,9 @@
   {
     "key": "shift+cmd+c",
     "command": "workbench.action.createTerminalEditor"
+  },
+  {
+    "key": "ctrl+x ctrl+c",
+    "command": "workbench.action.closeActiveEditor"
   }
 ]
