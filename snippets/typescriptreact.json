@@ -54,6 +54,17 @@
         ],
 		"description": "(css) background image"
 	},
+	"csspos": {
+		"prefix": "csspos",
+		"body": [
+			"position: \"absolute\",",
+			"left: percent(0),",
+			"top: percent(0),",
+			"width: percent(100),",
+			"height: percent(100),"
+        ],
+		"description": "(css) position"
+	},
 	"cssmq": {
 		"prefix": "cssmq",
 		"body": [
