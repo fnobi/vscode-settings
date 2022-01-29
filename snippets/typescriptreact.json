@@ -17,23 +17,23 @@
 			"const [$1, set${1/^./${0:/upcase}/}] = useState(null);"
 		]
 	},
-    "emotion": {
+	"emotion": {
 		"prefix": "emotion",
 		"body": [
-            "const $1 = css({",
-            "  $2",
-            "});"
-        ],
+			"const $1 = css({",
+			"  $2",
+			"});"
+		],
 		"description": "(css) flex centering"
-        
-    },
+		
+	},
 	"cssflex": {
 		"prefix": "cssflex",
 		"body": [
 			"display: \"flex\",",
 			"justifyContent: \"center\",",
 			"alignItems: \"center\","
-        ],
+		],
 		"description": "(css) flex centering"
 	},
 	"csssize": {
@@ -41,7 +41,7 @@
 		"body": [
 			"width: px($1),",
 			"height: px($2),"
-        ],
+		],
 		"description": "(css) sizing csss"
 	},
 	"cssbgi": {
@@ -51,7 +51,7 @@
 			"backgroundRepeat: \"no-repeat\",",
 			"backgroundSize: \"contain\",",
 			"backgroundPosition: \"center\","
-        ],
+		],
 		"description": "(css) background image"
 	},
 	"csspos": {
@@ -62,7 +62,7 @@
 			"top: percent(0),",
 			"width: percent(100),",
 			"height: percent(100),"
-        ],
+		],
 		"description": "(css) position"
 	},
 	"cssmq": {
@@ -70,7 +70,7 @@
 		"body": [
 			"[MQ_MOBILE]: {$1},",
 			"[MQ_DESKTOP]: {$1}"
-        ],
+		],
 		"description": "(css) media query"
 	},
 	"cssori": {
@@ -84,10 +84,10 @@
 	"nospan": {
 		"prefix": "nospan",
 		"body": [
-            "span: {",
-            "  display: \"none\"",
-            "}"
-        ],
+			"span: {",
+			"  display: \"none\"",
+			"}"
+		],
 		"description": "(css) nospan"
 	}
 }
