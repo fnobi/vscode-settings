@@ -21,7 +21,6 @@
     "eslint.autoFixOnSave": true,
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
-    "breadcrumbs.enabled": false,
     "files.associations": {
       "*.yyp": "json",
       "*.gml": "javascript"
