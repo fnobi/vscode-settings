@@ -24,8 +24,16 @@
 			"  $2",
 			"});"
 		],
+		"description": "emotion style definition"
 	},
+	"styled": {
+		"prefix": "styled",
+		"body": [
+			"const $1 = styled.div`",
+			"  $2",
+			"`;"
 		],
+		"description": "styled component style definition"
 	},
 	"cssflex": {
 		"prefix": "cssflex",
