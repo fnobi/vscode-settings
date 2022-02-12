@@ -24,8 +24,8 @@
 			"  $2",
 			"});"
 		],
-		"description": "(css) flex centering"
-		
+	},
+		],
 	},
 	"cssflex": {
 		"prefix": "cssflex",
