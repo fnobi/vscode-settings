@@ -8,7 +8,7 @@
 			"  return <div>$1</div>;",
 			"};",
 			"",
-			"export default $1;",
+			"export default $1;"
 		]
 	},
 	"useState": {
@@ -85,7 +85,7 @@
 		"prefix": "cssori",
 		"body": [
 			"[MEDIA_SELECTOR({ size: \"s\", orientation: \"landscape\" })]: {$1},",
-			"[MEDIA_SELECTOR({ size: \"s\", orientation: \"portrait\" })]: {$1},",
+			"[MEDIA_SELECTOR({ size: \"s\", orientation: \"portrait\" })]: {$1},"
 		],
 		"description": "(css) MEDIA_SELECTOR"
 	},
