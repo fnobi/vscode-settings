@@ -90,5 +90,9 @@
     "key": "shift+cmd+c",
     "command": "workbench.action.terminal.new",
     "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+x ctrl+x",
+    "command": "terminal.focus"
   }
 ]
