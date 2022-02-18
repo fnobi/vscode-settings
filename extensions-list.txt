@@ -6,6 +6,7 @@ fnobi.assetquickimport
 hiro-sun.vscode-emacs
 jpoissonnier.vscode-styled-components
 ms-dotnettools.csharp
+ms-vscode-remote.remote-containers
 octref.vetur
 shardulm94.trailing-spaces
 slevesque.shader
