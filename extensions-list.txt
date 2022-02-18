@@ -5,9 +5,12 @@ FallenMax.mithril-emmet
 fnobi.assetquickimport
 hiro-sun.vscode-emacs
 jpoissonnier.vscode-styled-components
+ms-dotnettools.csharp
 octref.vetur
+shardulm94.trailing-spaces
 slevesque.shader
 stevensona.shader-toy
 toba.vsfire
+tomoki1207.vscode-input-sequence
 vscode-icons-team.vscode-icons
 yzane.markdown-pdf
