@@ -92,7 +92,16 @@
     "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
   },
   {
-    "key": "ctrl+x ctrl+x",
+    "key": "cmd+2",
     "command": "terminal.focus"
+  },
+  {
+    "key": "shift+cmd+right",
+    "command": "-cursorEndSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
   }
 ]
