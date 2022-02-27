@@ -103,5 +103,9 @@
   {
     "key": "cmd+2",
     "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "ctrl+x m",
+    "command": "workbench.action.toggleMaximizedPanel"
   }
 ]
