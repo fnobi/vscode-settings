@@ -5,6 +5,7 @@ FallenMax.mithril-emmet
 fnobi.assetquickimport
 hiro-sun.vscode-emacs
 jpoissonnier.vscode-styled-components
+mhutchie.git-graph
 ms-dotnettools.csharp
 ms-vscode-remote.remote-containers
 octref.vetur
