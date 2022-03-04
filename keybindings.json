@@ -17,8 +17,14 @@
     "key": "cmd+i",
     "command": "editor.action.reindentlines"
   },
-  { "key": "ctrl+x k", "command": "workbench.action.closeActiveEditor" },
-  { "key": "cmd+\\", "command": "workbench.action.toggleSidebarVisibility" },
+  {
+    "key": "ctrl+x k",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
   {
     "key": "ctrl+x g",
     "command": "workbench.view.scm"
