@@ -1,7 +1,6 @@
 {
     // 既定の設定を上書きするには、このファイル内に設定を挿入します
     "window.zoomLevel": 1,
-    "editor.formatOnSave": false,
     "javascript.format.enable": false,
     "prettier.eslintIntegration": true,
     "eslint.alwaysShowStatus": true,
@@ -11,28 +10,37 @@
     "editor.minimap.enabled": false,
     "prettier.singleQuote": true,
     "vetur.format.defaultFormatter.js": "none",
-    "eslint.validate": [
-        "javascript",
-        {
-          "language": "vue",
-          "autoFix": true
-        }
-    ],
-    "eslint.autoFixOnSave": true,
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "files.associations": {
-      "*.yyp": "json",
-      "*.gml": "javascript"
+        "*.yyp": "json",
+        "*.gml": "javascript",
+        "*.md": "markdown"
     },
     "workbench.iconTheme": "vs-seti",
     "workbench.editor.enablePreview": false,
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+        "source.fixAll.eslint": true
     },
     "vsicons.dontShowNewVersionMessage": true,
     "omnisharp.useGlobalMono": "always",
     "workbench.colorTheme": "Abyss",
     "security.workspace.trust.untrustedFiles": "open",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "editor.formatOnSave": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.formatOnSave": false
+    }
 }
