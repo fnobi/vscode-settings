@@ -2,9 +2,9 @@
 	"react": {
 		"prefix": "react",
 		"body": [
-			"import React from \"react\";",
+			"import { FC } from \"react\";",
 			"",
-			"const ${1:$TM_FILENAME_BASE} = () => {",
+			"const ${1:$TM_FILENAME_BASE}: FC = () => {",
 			"  return <div>$1</div>;",
 			"};",
 			"",
