@@ -1,5 +1,4 @@
 {
-    // 既定の設定を上書きするには、このファイル内に設定を挿入します
     "window.zoomLevel": 1,
     "javascript.format.enable": false,
     "prettier.eslintIntegration": true,
@@ -42,5 +41,6 @@
     },
     "[markdown]": {
         "editor.formatOnSave": false
-    }
+    },
+    "editor.bracketPairColorization.enabled": false
 }
