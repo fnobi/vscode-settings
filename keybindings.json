@@ -113,5 +113,13 @@
   {
     "key": "ctrl+x m",
     "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.splitEditor"
   }
 ]

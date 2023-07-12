@@ -47,8 +47,8 @@
 	"csssize": {
 		"prefix": "csssize",
 		"body": [
-			"width: px($1),",
-			"height: px($2),"
+			"width: $1($2.width),",
+			"height: $1($2.height),"
 		],
 		"description": "(css) sizing csss"
 	},

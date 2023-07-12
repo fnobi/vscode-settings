@@ -1,5 +1,4 @@
 {
-    "window.zoomLevel": 1,
     "javascript.format.enable": false,
     "prettier.eslintIntegration": true,
     "eslint.alwaysShowStatus": true,
@@ -42,5 +41,9 @@
     "[markdown]": {
         "editor.formatOnSave": false
     },
-    "editor.bracketPairColorization.enabled": false
+    "editor.bracketPairColorization.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 1,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.accessibilitySupport": "off"
 }
