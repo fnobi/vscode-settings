@@ -2,9 +2,7 @@
 	"react": {
 		"prefix": "react",
 		"body": [
-			"import { FC } from \"react\";",
-			"",
-			"const ${1:$TM_FILENAME_BASE}: FC = () => {",
+			"function ${1:$TM_FILENAME_BASE}() {",
 			"  return <div>$1</div>;",
 			"};",
 			"",
@@ -29,9 +27,9 @@
 	"styled": {
 		"prefix": "styled",
 		"body": [
-			"const $1 = styled.div`",
+			"const $1 = styled.div({",
 			"  $2",
-			"`;"
+			"});"
 		],
 		"description": "styled component style definition"
 	},
