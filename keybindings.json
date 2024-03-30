@@ -121,5 +121,13 @@
   {
     "key": "cmd+\\",
     "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "cmd+1",
+    "command": "-workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.closeEditorsInOtherGroups"
   }
 ]
