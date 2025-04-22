@@ -2,7 +2,7 @@
 	"react": {
 		"prefix": "react",
 		"body": [
-			"function ${1:$TM_FILENAME_BASE}() {",
+			"const ${1:$TM_FILENAME_BASE} = () => {",
 			"  return <div>$1</div>;",
 			"};",
 			"",
@@ -64,8 +64,8 @@
 		"prefix": "csspos",
 		"body": [
 			"position: \"absolute\",",
-			"left: percent(0),",
-			"top: percent(0),",
+			"left: 0,",
+			"top: 0,",
 			"width: percent(100),",
 			"height: percent(100),"
 		],
