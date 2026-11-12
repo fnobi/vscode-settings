@@ -55,5 +55,27 @@
         {
             "mode": "auto"
         }
-    ]
+    ],
+    "terminal.integrated.stickyScroll.enabled": false,
+    "vscode-pets.petColor": "gray",
+    "vscode-pets.theme": "autumn",
+    "terminal.integrated.suggest.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "git.suggestSmartCommit": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "csv.enabled": true,
+    "editor.fontFamily": "'Google Sans Code', Menlo, Monaco, 'Courier New', monospace",
+    "claudeCode.preferredLocation": "panel",
+    "github.copilot.chat.claudeAgent.enabled": false,
+    "terminal.integrated.initialHint": false,
+    "chat.viewSessions.orientation": "stacked",
+    "terminal.integrated.mouseWheelScrollSensitivity": 3,
+    "terminal.integrated.gpuAcceleration": "off",
+    "claudeCode.hideOnboarding": true,
+    "terminal.integrated.defaultLocation": "editor"
 }

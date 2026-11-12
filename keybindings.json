@@ -93,15 +93,6 @@
     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
   },
   {
-    "key": "shift+cmd+c",
-    "command": "workbench.action.terminal.new",
-    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
-  },
-  {
-    "key": "cmd+2",
-    "command": "terminal.focus"
-  },
-  {
     "key": "shift+cmd+right",
     "command": "-cursorEndSelect",
     "when": "textInputFocus"
@@ -111,11 +102,7 @@
     "command": "-workbench.action.focusSecondEditorGroup"
   },
   {
-    "key": "ctrl+x m",
-    "command": "workbench.action.toggleMaximizedPanel"
-  },
-  {
-    "key": "cmd+3",
+    "key": "cmd+2",
     "command": "workbench.action.splitEditor"
   },
   {
@@ -129,5 +116,26 @@
   {
     "key": "cmd+1",
     "command": "workbench.action.closeEditorsInOtherGroups"
+  },
+  {
+    "key": "shift+enter",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "\u001b\r"
+    },
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.browser.addElementToChat",
+    "when": "browserHasUrl && chatIsEnabled && !browserHasError && activeEditor == 'workbench.editor.browser'"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "claude-vscode.primaryEditor.open"
+  },
+  {
+    "key": "ctrl+x m",
+    "command": "workbench.action.terminal.focus"
   }
 ]
