@@ -132,10 +132,10 @@
   },
   {
     "key": "shift+cmd+c",
-    "command": "claude-vscode.primaryEditor.open"
+    "command": "claude-vscode.editor.open"
   },
   {
     "key": "ctrl+x m",
-    "command": "workbench.action.terminal.focus"
+    "command": "workbench.action.terminal.new"
   }
 ]
